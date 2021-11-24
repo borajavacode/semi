@@ -1,0 +1,17 @@
+.imgBox{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 120px;
+}
+.imgBox>h1{
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+}
+body{
+    display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,92 @@
+.title>img:first-child{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.title>*{
+    display: inline-block;
+    color: #fff;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.location{
+    width: 800px;
+    text-align: right;
+}
+.info{
+	width: 800px;
+    padding: 20px;
+    background-color: #3e444a;
+    border-radius: 20px;
+}
+.info>p{
+	color: #fff;
+}
+.center>div{
+    margin: 0 auto;
+}
+.btnBox{
+    text-align: center;
+    padding: 30px 0;
+}
+.btnBox>a:first-child{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.btnBox>a{
+    width: 15%;
+    border-radius: 10px;
+}
+textarea{
+	resize: none;
+    height: 100px;
+}
+.inputCommentBox{
+	width: 1000px;
+}
+.inputCommentBox>form{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+.commentBox{
+	width: 1000px;
+}
+.comments{
+	list-style: none;
+	background-color: #3e444a;
+	border-radius: 10px;
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+}
+.comments>li{
+	padding-top: 10px;
+}
+.comments>li:first-child {
+	width: 20%;
+	background-color: #070c11;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+.comments>li:last-child {
+	width: 80%;
+}
+.comments>li>p{
+	margin: 0;
+	padding-left: 10px;
+}
+.commentsBtn{
+	width: 100%;
+	text-align: right;
+	padding-right: 20px;
+}
+.location>h4{
+	color: #fff;
+}
+.comments *{
+	color: #fff;
+}

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "g_r";
+  src: url(/font/GothicA1-Regular.ttf);
+}
+body {
+  font-family: "g_r";
+  color:#fff;
+}

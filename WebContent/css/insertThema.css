@@ -1,0 +1,12 @@
+.table{
+    margin: 50px 0;
+}
+textarea{
+    resize: none;
+    height: 400px;
+}
+[name=diff]{
+    outline: none;
+    border: 0;
+    width: 20px;
+}

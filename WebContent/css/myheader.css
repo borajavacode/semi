@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.mynav>ul{
+display:flex;
+
+}
+.mynav>ul>li:first-child{
+
+}
+.mynav>ul{
+justify-content: space-around;
+
+
+}
+.mynav>ul>li{
+box-sizing: border-box;
+height:40px;
+}
+.mynav>ul>li>a{
+font-family: "g_r";
+	color: #3c6a9b;
+	font-weight: bold;
+	
+	}
+
+.mynav>ul>li:hover {
+	
+	border-bottom: 5px solid #3c6a9b; 
